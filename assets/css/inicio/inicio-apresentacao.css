@@ -1,0 +1,42 @@
+.inicio__apresentacao {
+    margin-bottom: 7rem ;
+    text-align: center;
+}
+
+h5{
+    font-family: 'Poly', serif;
+    font-size: 1.4rem;
+    margin: 0rem 0 1rem 0;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;;
+    font-size: 5.5rem;
+    text-align: center;
+}
+
+h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1700px) {
+    h5 {
+        font-size: 100%;
+        margin: 0rem 0 0rem 0rem;
+    }
+
+    h1 {
+        font-size: 300%;
+    }
+
+    h4 {
+        font-size: 100%;
+    }
+}
+
+
+

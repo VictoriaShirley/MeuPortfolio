@@ -1,0 +1,69 @@
+.card-content label {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.card-content-area {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 20rem;
+}
+
+.card-content-area input {
+    margin-top: 10px;
+    padding:0 5px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+}
+
+textarea {
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 20rem;
+}
+
+.card-footer .submit{
+    width: 100%;
+    height: 40px;
+    background-color: #885ED4;
+        border:none;
+    color:#e1e1e1;
+    margin: 10px 0;
+}
+
+.card-footer a {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-footer .submit:hover {
+    background-color: #C15DD4;
+}
+
+
+@media screen and (max-width: 1500px) {
+    .card-content-area {
+        padding: 3rem 2rem 0 2rem;
+    }
+
+    .card-footer {
+        padding: 2rem 2rem 5rem 2rem;
+    }
+
+  
+    
+}

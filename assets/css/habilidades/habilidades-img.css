@@ -1,0 +1,26 @@
+.habilidades__img {
+    width: 12rem;
+    margin: 3rem;
+}
+
+.habilidades__img:hover {
+    transform: scale(1.5);
+}
+
+@media screen and (max-width: 1700px) {
+    .habilidades__img {
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .habilidades__img {
+        width: 10rem;
+        margin: 0rem;
+    }
+
+  .habilidades__img:hover {
+    transform: scale(1.2);
+  }
+}
+

@@ -1,0 +1,18 @@
+.inicio {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+    padding: auto;
+}
+
+@media screen and (max-width: 678px) {
+    .inicio {
+       padding: 10rem 2rem 5rem 2rem;
+    }
+  
+    .inicio__secao {
+        margin:  8rem 0 5rem 0;
+    }
+}

@@ -1,0 +1,22 @@
+#obcessoes {
+    font-size: 1.2rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.dados__obcessoes {
+    text-align: left;
+}
+
+.progress {
+    margin-bottom: 0.7rem;
+}
+
+.progress-bar{
+   animation: progress-animation 5s infinite;
+}
+
+
+
+
+
+

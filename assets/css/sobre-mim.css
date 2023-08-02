@@ -1,0 +1,28 @@
+.sobre_mim {
+    background-color: #dfdddd;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 10rem 10rem 18rem 10rem;
+    text-align: center;
+}
+
+.sobre_mim__secao {
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 678px) {
+    .sobre_mim {
+        padding: 7rem 2rem 16rem 1rem;
+        height: auto;
+    }
+
+    .sobre_mim__secao {
+        font-size: 1.5rem;
+        margin: 5rem 0 2rem 0;
+    }
+}

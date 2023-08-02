@@ -1,0 +1,54 @@
+.qualificacoes__EM {
+    display: flex;
+    margin-bottom: 5rem;
+    margin-left: 15%;
+
+}
+
+.EM__p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5rem;
+    margin: 3rem;
+    text-align: left;
+}
+
+.EM__img {
+    width: 7rem;
+    height: 6rem;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .qualificacoes__EM {
+        display: flex;
+        margin-bottom: 5rem;
+    }
+
+   .EM__p {
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 1.2rem;
+        margin: 1rem 0 0 1rem;
+}
+
+    .EM__img {
+        width: 5rem;
+        height: 4rem;
+    }
+}
+
+@media screen and (max-width: 468px) {
+   .qualificacoes__EM {
+        margin-left: 0;
+    }
+  
+  .EM__img {
+        width: 5rem;
+        height: 4rem;
+        margin-left: 0;
+    }
+}
+
+
+
+
+

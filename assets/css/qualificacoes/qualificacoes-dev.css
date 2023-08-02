@@ -1,0 +1,46 @@
+.qualificacoes__DEV {
+    display: flex;
+    margin-left: 15%;
+}
+
+.DEV__p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5rem;
+    margin: 3rem;
+    text-align: left;
+}
+
+.DEV__img {
+    width: 6rem;
+    height: 6rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .qualificacoes__DEV {
+        display: flex;
+        margin-bottom: 5rem;
+    }
+
+   .DEV__p {
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 1.2rem;
+        margin: 1rem;
+}
+
+    .DEV__img {
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+@media screen and (max-width: 468px) {
+   .qualificacoes__DEV {
+      margin-left: 0;
+    }
+  
+  .DEV__img {
+        width: 5rem;
+        height: 4rem;
+        margin-left: 0;
+    }
+}

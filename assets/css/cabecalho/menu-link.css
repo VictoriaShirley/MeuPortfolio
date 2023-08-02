@@ -1,0 +1,26 @@
+.menu__link {
+    color: white;
+    display: block;
+    font-family: 'Inder', sans-serif;
+    font-size: 1rem;
+    margin: 1.5rem 2rem 0 1rem;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: yellow;
+}
+
+@media screen and (max-width: 1700px) {
+    .menu__link {
+        font-size: 0.9rem;
+        margin: 1.5rem 0.9rem 0rem 0rem;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .menu__link {
+        font-size: 0.8rem;
+        margin: 0rem 0.5rem 0rem 0rem;
+    }
+}

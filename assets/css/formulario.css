@@ -1,0 +1,36 @@
+.formulario {
+    background-color: #121022;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 7rem;
+}
+
+.formulario__secao {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    margin: 0 0 3rem 0;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 678px) {
+    .formulario {
+        padding: 7rem 2rem 8rem 2rem;
+    }
+    
+    .formulario__secao {
+        font-size: 1.3rem;
+        margin: 5rem 0 2rem 0;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+}

@@ -1,0 +1,10 @@
+.habilidades__lista {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 6rem 0 12rem 0;
+}
+
+.carousel-item {
+    list-style: none;
+}
+

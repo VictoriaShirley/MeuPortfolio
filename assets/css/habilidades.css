@@ -1,0 +1,43 @@
+.habilidades {
+  background-color: #4d6b8d;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 7rem;
+}
+
+.habilidades__secao {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  margin: 0 0 2rem 0;
+  text-align: center;
+}
+
+.carousel1 {
+display: flex;
+}
+
+.carousel2 {
+display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .carousel1 {
+    display: none;
+  }
+
+  .carousel2 {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .habilidades {
+    padding: 7rem 2rem 40rem 2rem;
+  }
+
+  .habilidades__secao {
+    font-size: 1.5rem;
+    margin: 5rem 0 0 0;
+  }
+}

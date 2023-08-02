@@ -1,0 +1,6 @@
+.qualificacoes__lista {
+    display: flex;
+    justify-content: left;  
+    flex-direction: column;
+}
+

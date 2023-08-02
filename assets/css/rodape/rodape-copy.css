@@ -1,0 +1,14 @@
+.rodape__copy {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 668px) {
+    .rodape__copy {
+        font-size: 1rem;
+    }
+}
+
+
+

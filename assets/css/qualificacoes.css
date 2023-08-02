@@ -1,0 +1,25 @@
+.qualificacoes {
+    background-color: #6E98A5;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 7rem 0 0 0 ;
+}
+
+.qualificacoes__secao {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    margin: 0 0 3rem 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 678px) {
+    .qualificacoes {
+       padding: 7rem 0rem 40rem 0rem;
+    }
+    .qualificacoes__secao {
+        font-size: 1.5rem;
+        margin: 5rem 0 5rem 0;
+    }
+}
+
